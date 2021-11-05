@@ -1,0 +1,50 @@
+.person {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-gap: 8px;
+}
+
+.person__photo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.person__info {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.person__info-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.person__info-icon {
+  background: rgb(184, 221, 245);
+  fill: rgb(59, 119, 209);
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.person__info-main {
+  margin-bottom: 10px;
+}
+
+.person__info-name {
+  color: rgb(41, 86, 207);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.person__info-department {
+  color: rgb(179, 179, 179);
+}
+
+.person__info-about {
+  color: grey;
+  align-items: flex-start;
+  font-size: 14px;
+}
